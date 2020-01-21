@@ -24,7 +24,7 @@
 - 쉬운것같은 문제도 괜찮으니 **망설이지 말고 질문하자.** 지혜를 모으면 더 좋은 솔루션을 발견할 수 있다.
 
 4. **알고리즘을 이해하고 다시 푼다.**
-- 팀원에게 받은 피드백 적용하고 코드를 수정해서 push한다.
+- 피드백을 적용해서 코드를 수정한다.
 - 상대방에게 받은 피드백과 코드에 자신이 적용한 해결방법을 정리해서 README.md에 작성하고 source/해당 코드가 있는 폴더에 업로드한다.
 - 코드에 주석을 달면 시간이 지나고 다시 볼 때 빠른 이해에 도움이 된다.
 
@@ -33,9 +33,8 @@
 2. 팀원들에게 자신이 공부한 이론이나 직접 푼 문제를 설명한다.
     - 이때 팀원들의 도움 혹은 피드백이 필요하다면 정리해서 미리 issue 혹은 Pull Request를 날린 후 단톡에 언급
     - 팀원들은 반드시 미팅 전까지 질문 내용과 답변 숙지하기.
-3. 미팅이 끝나고 위의** 4번** 을 진행한다.
-
-<br>
+3. 미팅이 끝나고 각자 위의** 4번** 을 진행한다.
+<br><br>
 
 ## Git 저장소 이용하는 방법
 저장소
@@ -66,6 +65,4 @@ workspace에서 개인 작업을 마친 후 공동 저장소(TheCopiens/algorith
 ---
 ### 이 글은 아래 사이트를 참고해 작성되었습니다.
  [알고리즘 공부법](https://gmlwjd9405.github.io/2018/05/14/how-to-study-algorithms.html)  <br>
- [wearsoft/algorithm-study](https://github.com/WeareSoft/algorithm-study/edit/master/README.md)
-
-
+ [wearsoft/algorithm-study](https://github.com/WeareSoft/algorithm-study)

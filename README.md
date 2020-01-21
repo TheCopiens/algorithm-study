@@ -26,6 +26,7 @@
 <br><br>
 
 ## Git 저장소 이용하는 방법
+- https://github.com/TheCopiens/algorithm-study
 ### 폴더 설명
 - contents: 알고리즘 관련 이론을 정리해서 업로드하는 폴더
 - docs: 이론 이외의 문서를 업로드하는 폴더

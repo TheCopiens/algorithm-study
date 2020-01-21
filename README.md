@@ -59,7 +59,7 @@ workspace에서 개인 작업을 마친 후 공동 저장소(TheCopiens/algorith
 4. <code> **git checkout master** </code> - ohhako에서 master로 브랜치 전환
 5. <code> **git pull** </code> - git원격 저장소의 master를 로컬로 가져오기
 6. <code> **git merge ohhako** </code> - master에 ohhako의 브랜치작업 반영
-7. <code> **git push master** </code> 
+7. <code> **git push origin master** </code> 
 
 <br><br>
 ---

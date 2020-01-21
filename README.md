@@ -1,6 +1,6 @@
 # algorithm-study
 
-### 알고리즘 공부 방법
+## 알고리즘 공부 방법
 
 1. 알고리즘 관련 이론 공부해 이해한다.
 - 자신이 이해할 수 있는 방식으로 이론을 정리하자.
@@ -23,15 +23,15 @@
 
 <br><br>
 
-### 저장소 이용하는 법
-##### 폴더 설명
+## 저장소 이용하는 법
+### 폴더 설명
 - contents: 알고리즘 관련 이론을 정리해서 업로드하는 폴더
 - docs: 이론 이외의 문서를 업로드하는 폴더
 - source: 개인 폴더를 생성하고 알고리즘 source code를 업로드하는 폴더
 
 <br>
 
-##### 명령어 사용
+### 명령어 사용
 workspace에 branch를 생성한다. <br>
 1. <code> git checkout ohhako </code> - master에서 ohhako 브랜치로 전환
 2. workspace에서 작업 

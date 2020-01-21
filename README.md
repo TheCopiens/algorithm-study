@@ -35,10 +35,8 @@
 workspace에 branch를 생성한다. <br>
 1. <code> git checkout ohhako </code> - master에서 ohhako 브랜치로 전환
 2. workspace에서 작업 
-3. <code> git commit -m "message"</code> , <code> git push origin ohhako <code>
+3. <code> git commit -m "message"</code> , <code> git push origin ohhako </code>
 4. <code> git checkout master </code> - ohhako에서 master로 브랜치 전환
 5. <code> git pull </code> - git원격 저장소의 master를 로컬로 가져오기
 6. <code> git merge ohhako </code> - master에 ohhako의 브랜치작업 반영
-7. <code> git push master </code>  
-
-
+7. <code> git push master </code> 

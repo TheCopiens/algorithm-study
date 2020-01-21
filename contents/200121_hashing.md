@@ -3,7 +3,7 @@
 해싱은 대량의 데이터에 주소를 부여하여 key와 value를 테이블에 대응(mapping)시키는 데이터 관리 기법입니다.
 
 ### 해시테이블(hash table)
-![img load fail](./imgs/hashStructure.PNG)
+![img load fail](../imgs/hashStructure.PNG)
 출처:위키백과-해시테이블
 
 * 해시테이블은 key-value 쌍으로 데이터를 저장하는 자료구조입니다. value 값을 찾고자 할때 지정된 key를 이용합니다.

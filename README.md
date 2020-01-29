@@ -39,7 +39,7 @@
 <br><br>
 
 ## Git 저장소 이용하는 방법
-저장소
+이용 저장소
 - https://github.com/TheCopiens/algorithm-study
 ### 폴더 설명
 - contents: 알고리즘 관련 이론을 정리해서 업로드하는 폴더
@@ -49,6 +49,10 @@
 <br>
 
 ### GitBash 명령어 사용 방법
+- [원격저장소의 브랜치 가져오기](https://github.com/TheCopiens/algorithm-study/blob/master/docs/github/bring_remote_branch.md) 
+
+
+#### 작업폴더 변경 후 원격저장소에 반영하기
 local workspace에 'ohhako'라는 이름으로 banch를 만들었다.<br>
 <code> 
 git branch ohhako

@@ -37,7 +37,7 @@
     - 새폴더에 원격저장소에 있는 파일이 복사된것 확인
     - <code>$git remote -v</code> 명령어로 작업폴더와 원격저장소 잘 연결되었는지 확인
     - **명령어 결과**
-    - ![img load fail](./imgs/2remote 원격저장소.JPG) 
+    - ![img load fail](./imgs/2remote원격저장소.JPG) 
 <br>
 
 3. 작업폴더에 가져온 브랜치를 확인한다

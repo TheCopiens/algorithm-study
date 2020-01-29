@@ -54,7 +54,7 @@
     - 업데이트 명령어 <code> **$git remote update** </code>
     - **명령어 결과**
     - ![img load fail](./imgs/4remoteUpdate.JPG) 
-
+    - 작업폴더에 추가된 브랜치를 확인할 수 있다.
 <br>
 
 5. 작업폴더에 가져온 브랜치를 확인한다

@@ -14,7 +14,7 @@
 6. 위 5개의 메뉴에서 commits 오른쪽에 있는 branches를 클릭하면 생성된 브랜치를 확인할 수 있다.
 
 참고로 웹에서 생성한 브랜치를 노트북으로 가져오는 작업은 아래 링크를 따라 시행한다.
-[GitBash를 이용해 깃허브 원격 저장소 브랜치 가져오는 방법](https://github.com/TheCopiens/algorithm-study/blob/master/docs/github/bring_remote_branch.md#gitbash%EB%A5%BC-%EC%9D%B4%EC%9A%A9%ED%95%B4-%EA%B9%83%ED%97%88%EB%B8%8C-%EC%9B%90%EA%B2%A9-%EC%A0%80%EC%9E%A5%EC%86%8C-%EB%B8%8C%EB%9E%9C%EC%B9%98-%EA%B0%80%EC%A0%B8%EC%98%A4%EB%8A%94-%EB%B0%A9%EB%B2%95)
+- [GitBash를 이용해 깃허브 원격 저장소 브랜치 가져오는 방법](https://github.com/TheCopiens/algorithm-study/blob/master/docs/github/bring_remote_branch.md#gitbash%EB%A5%BC-%EC%9D%B4%EC%9A%A9%ED%95%B4-%EA%B9%83%ED%97%88%EB%B8%8C-%EC%9B%90%EA%B2%A9-%EC%A0%80%EC%9E%A5%EC%86%8C-%EB%B8%8C%EB%9E%9C%EC%B9%98-%EA%B0%80%EC%A0%B8%EC%98%A4%EB%8A%94-%EB%B0%A9%EB%B2%95)
 
 
 ## GitBash 이용해 브랜치(branch) 만드는 방법
@@ -35,4 +35,4 @@
 <code> git checkout -b 브랜치이름 </code>    <br>
 브랜치를 생성했으니 이제 작업 후 원격 저장소에 반영하는 작업은 아래 링크를 따라 진행한다.
 
-[GitBash 명령어 사용 방법](https://github.com/TheCopiens/algorithm-study#gitbash-%EB%AA%85%EB%A0%B9%EC%96%B4-%EC%82%AC%EC%9A%A9-%EB%B0%A9%EB%B2%95)
+- [GitBash 명령어 사용 방법](https://github.com/TheCopiens/algorithm-study#gitbash-%EB%AA%85%EB%A0%B9%EC%96%B4-%EC%82%AC%EC%9A%A9-%EB%B0%A9%EB%B2%95)

@@ -49,6 +49,7 @@
 <br>
 
 ### GitBash 명령어 사용 방법
+- [원격저장소의 브랜치를 생성하는 방법](https://github.com/TheCopiens/algorithm-study/blob/master/docs/github/howToCreate_branch.md#%EC%9B%90%EA%B2%A9%EC%A0%80%EC%9E%A5%EC%86%8C%EC%9D%98-%EB%B8%8C%EB%9E%9C%EC%B9%98%EB%A5%BC-%EC%83%9D%EC%84%B1%ED%95%98%EB%8A%94-%EB%B0%A9%EB%B2%95)
 - [원격저장소의 브랜치 가져오기](https://github.com/TheCopiens/algorithm-study/blob/master/docs/github/bring_remote_branch.md) 
 
 

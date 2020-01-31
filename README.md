@@ -4,8 +4,11 @@
 - 프로그래머스 https://programmers.co.kr/learn/challenges
 - 백준 https://www.acmicpc.net/problem/tags
 
-## 알고리즘 공부 방법
+## 알고리즘 공부 간증글
+- 박트리님 PS공부법 https://baactree.tistory.com/52
+- 언어선택 https://www.acmicpc.net/board/view/24568
 
+## 알고리즘 공부 방법
 1. **알고리즘 관련 이론을 공부해 이해한다.**
 - 자신이 이해할 수 있는 방식으로 이론을 정리하자.
 - 블로그나 깃허브에 정리하는것도 하나의 방법이 될 수 있다.

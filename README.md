@@ -91,6 +91,6 @@ workspace에서 개인 작업을 마친 후 공동 저장소(TheCopiens/algorith
 <br><br>
 ---
 ### 이 글은 아래 사이트를 참고해 작성되었습니다.
- [알고리즘 공부법](https://gmlwjd9405.github.io/2018/05/14/how-to-study-algorithms.html)  <br>
- [wearsoft/algorithm-study](https://github.com/WeareSoft/algorithm-study)
- [알고리즘 공부 어떻게 해야하나](https://baactree.tistory.com/52) 
+- [알고리즘 공부법](https://gmlwjd9405.github.io/2018/05/14/how-to-study-algorithms.html)  <br>
+- [wearsoft/algorithm-study](https://github.com/WeareSoft/algorithm-study)
+- [알고리즘 공부 어떻게 해야하나](https://baactree.tistory.com/52) 

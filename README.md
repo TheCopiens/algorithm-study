@@ -29,8 +29,9 @@
 1. **알고리즘 관련 이론을 공부해 이해한다.**
 - 자신이 이해할 수 있는 방식으로 이론을 정리하자.
 - 블로그나 깃허브에 정리하는것도 하나의 방법이 될 수 있다.
-   - 참고: https://github.com/WeareSoft/algorithm-study/blob/master/contents/180527.md
-   - 참고: https://gmlwjd9405.github.io/2018/05/06/algorithm-bubble-sort.html
+   - 참고 https://github.com/TheCopiens/algorithm-study/blob/master/contents/200121_hashing.md#hashing
+   - https://github.com/WeareSoft/algorithm-study/blob/master/contents/180527.md
+   - https://gmlwjd9405.github.io/2018/05/06/algorithm-bubble-sort.html
 2. **이론과 관련된 알고리즘 문제를 푼다.**
 - ex) 해쉬를 이용하는 문제, 배열을 이용하는 문제
 - 문제의 레벨이나 자신의 눈높이에 맞추어 적당한 시간을 정해놓고 푼다.

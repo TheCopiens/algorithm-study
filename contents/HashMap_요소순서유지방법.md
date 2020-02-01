@@ -1,4 +1,6 @@
 # HashMap 클래스의 요소 순서 유지방법
+### 관련된 알고리즘 문제 
+- [캐시](https://github.com/TheCopiens/algorithm-study/blob/ohhako/source/ohhako/coding%20test/kakao/%EC%BA%90%EC%8B%9C.md#%EC%BA%90%EC%8B%9C)
 
 
 ## HashMap를 통한 순서 유지

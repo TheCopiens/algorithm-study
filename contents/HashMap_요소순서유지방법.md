@@ -22,7 +22,7 @@ for(String value : m.values()) {
 
 **결과**<br>
 <code> 
-a c b 
+a c b <br>
 a c b
 </code>
 
@@ -39,9 +39,9 @@ m.put(1,"a");
 m.put(2,"c");
 m.put(3,"d");
 		
-for(Integer key : m.keySet())
+for(Integer key : m.keySet()){
 	System.out.print(m.get(key));
-
+}
 ```
 
 **결과**<br>
@@ -50,10 +50,11 @@ d a c
 </code>
 
 ### LinkedHashMap의 removeEldestEntry() 메서드 사용하기
-Map에서 가장 오래된 엔트리를 삭제해 true를 반환하는 removeEldestEntry() 메서드를 이용하려면 오버라이드를 해야합니다. removeEldestEntry()는 직접 호출하는 메서드가 아니고 인터페이스로 존재하는 메서드이므로 재정의를 하지않으면 일반 HashMap의 메서드와 동일하게 동작합니다.
-- removeEldestEntry() 재정의 시, 꽉 차있는 해쉬맵에 key가 중복되지 않은 새로운 데이터를 put할때 가장 오래된 요소를 삭제하고 새로운 데이터를 삽입한다.
+**removeEldestEntry()** : Map에서 가장 오래된 엔트리를 삭제하며 성공시 true를 반환한다.
+#### removeEldestEntry() 재정의시 주의하기
+removeEldestEntry() 메서드를 사용하려면 무조건 오버라이드를 해야합니다. removeEldestEntry()는 직접 호출하는 메서드가 아니므로 **재정의 하지않으면 LinkedHashMap의 put()이 HashMap의 메서드와 동일하게** 동작합니다.
+- 데이터가 최대개수로 존재하는 해쉬맵에 key가 중복되지 않은 새로운 데이터를 put할때 가장 오래된 요소를 삭제하고 새로운 데이터를 삽입한다.
 
-#### removeEldestEntry() 재정의
 
 ```java
 HashMap<String,Integer> hm = new LinkedHashMap<String,Integer>() {
@@ -65,3 +66,7 @@ HashMap<String,Integer> hm = new LinkedHashMap<String,Integer>() {
 		};
 
 ```
+
+---
+글 참고하기
+- [LinkedHashMap 상속받은 클래스 구현하기](https://cornswrold.tistory.com/380)

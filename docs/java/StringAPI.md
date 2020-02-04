@@ -24,16 +24,23 @@ String s2 = "2342525";
 int a = Integer.parseInt(s2);
 ```
 
-### 배열 복사 메서드   
-- Arrays.copyOf(Object[] obj,int length)
+<!-- int배열을 문자열로, 문자열을 int배열로 -->
 
-- Arrays.copyOfRange(Object[] obj,int from, int to)
+### 배열 복사 메서드   
+- void Arrays.copyOf(Object[] obj,int length)
+
+- void Arrays.copyOfRange(Object[] obj,int from, int to+1)
 
 ### 정렬 메서드
 - 오름차순 정렬 메서드
     - Arrays.sort(Object[] obj) 
-    - Arrays.sort(Object[] obj, int from, int toIndex+1)
+    - Arrays.sort(Object[] obj, int from, int to+1) : 인자의 배열을 인덱스 from부터 to까지 정렬
+    
 
 - 내림차순 정렬 메서드
     - Arrays.sort(Integer[] arr, Collections.reverseOrder())
     - 넘겨주는 파라미터가 반드시 Integer 타입이어야 한다.
+
+### 문자열 자르기 메서드
+- String.substring(int start) : 인덱스 start부터 끝까지 문자열을 잘라서 저장
+- String.substring(int start, int end+1) : 인덱스 start부터 end 까지 문자열을 잘라서 저장

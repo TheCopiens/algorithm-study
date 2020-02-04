@@ -1,4 +1,4 @@
-# algorithm-study
+# :orange_book: algorithm-study
 
 ## 알고리즘 문제 사이트
 - 프로그래머스 https://programmers.co.kr/learn/challenges

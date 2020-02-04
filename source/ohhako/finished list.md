@@ -2,6 +2,10 @@
 <!-- (하)  -->
 [2016년](https://programmers.co.kr/learn/courses/30/lessons/12901)
 [문자열 내 p,y 개수](https://programmers.co.kr/learn/courses/30/lessons/12916)
+[가운데글자가져오기](https://programmers.co.kr/learn/courses/30/lessons/12903?language=java)
+[같은 숫자는 싫어](https://programmers.co.kr/learn/courses/30/lessons/12906)
+[나누어 떨어지는 숫자배열](https://programmers.co.kr/learn/courses/30/lessons/12910)
+[두 정수 사이의 합](https://programmers.co.kr/learn/courses/30/lessons/12912?language=java)
 
 <br>
 

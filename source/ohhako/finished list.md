@@ -13,7 +13,8 @@
 - [소수찾기](https://programmers.co.kr/learn/courses/30/lessons/12921)
 - [문자열을 정수로 바꾸기](https://programmers.co.kr/learn/courses/30/lessons/12925)
 - [약수의 합](https://programmers.co.kr/learn/courses/30/lessons/12928)
-
+- [시저 암호](https://programmers.co.kr/learn/courses/30/lessons/12926)
+- [비밀지도](https://programmers.co.kr/learn/courses/30/lessons/17681)
 <br>
 
 <!-- (중)  -->

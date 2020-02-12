@@ -4,6 +4,10 @@ String, StringBuffer, StringBuilder 는 모두 String 문자열을 저장하고 
 ### 차이점 요악 설명
 - String은 불변(immutable) 속성이다
 - StringBuffer는 가변(mutable) 속성이다
+- 짧은 문자열을 더하는 경우엔 String 사용
+- 스레드에 안전한 프로그램 개발 시 StringBuffer 사용 
+- 스레드 안전여부가 관계 없을 시 StringBuilder 사용
+- 연산이 많아지는 경우 StringBuilder > StringBuffer >>> String
 
 ### 자바 메모리 공간 구조
 ![img load fail](./img/java_memory.jpg) 
@@ -24,10 +28,12 @@ String, StringBuffer, StringBuilder 는 모두 String 문자열을 저장하고 
 - 따라서 String보다 동작 방식이 유연하다.
 - Buffer, Builder가 제공하는 메서드는 동일하다.
 #### 차이점 
-- Buffer는 멀티스레드 환경에서 사용하기 좋다.
+- StringBuffer는 각 메서드마다 Synchronized Keyword가 존재한다.
+- 멀티스레드 환경에서 사용하기 좋다.
     - 동기화 지원
 - Builder는 싱글스레드 환경에서 사용하기 좋다.
-    - 동기화처리 성능이 Buffer보다는 떨어짐
+    - 동기화를 지원하되 보장하지 않음
+
 
 
 

@@ -27,6 +27,8 @@
 ---
 #### 2주차 (2020-02-01~2020-02-08)
 <!-- (하)  -->
+- [자릿수더하기](https://programmers.co.kr/learn/courses/30/lessons/12931)
+- [자연수 뒤집어 배열로 만들기](https://programmers.co.kr/learn/courses/30/lessons/12932)
 <br>
 <!-- (중)  -->
 <br>

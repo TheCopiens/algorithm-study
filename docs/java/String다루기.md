@@ -46,6 +46,10 @@ int a = Integer.parseInt(s2);
 - param.substring(int start) : 인덱스 start부터 끝까지 문자열을 잘라서 저장
 - param.substring(int start, int end+1) : 인덱스 start부터 end 까지 문자열을 잘라서 저장
 
+### 문자열 합치기 메서드 
+- param1.concat(param2) : 합친 문자열을 String으로 생성해줌
+- param1 + param2 : StringBuilder로 변환시킨 후 append()로 이어붙이고 toString()으로 문자열 반환
+
 
 ### StringBuilder API 사용하기
 - StringBuilder sb = new StringBuilder() : StringBuilder 객체 선언

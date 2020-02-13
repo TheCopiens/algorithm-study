@@ -29,6 +29,7 @@
 <!-- (하)  -->
 - [자릿수더하기](https://programmers.co.kr/learn/courses/30/lessons/12931)
 - [자연수 뒤집어 배열로 만들기](https://programmers.co.kr/learn/courses/30/lessons/12932)
+- [x만큼 간격있는 n개의 숫자](https://programmers.co.kr/learn/courses/30/lessons/12954)
 <br>
 <!-- (중)  -->
 <br>

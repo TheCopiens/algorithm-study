@@ -32,9 +32,17 @@
 - [x만큼 간격있는 n개의 숫자](https://programmers.co.kr/learn/courses/30/lessons/12954)
 - [예산](https://programmers.co.kr/learn/courses/30/lessons/12982)
 - [정수 내림차순 배치](https://programmers.co.kr/learn/courses/30/lessons/12933)
+- [직사각형 별찍기](https://programmers.co.kr/learn/courses/30/lessons/12969)
+- [행렬의 덧셈](https://programmers.co.kr/learn/courses/30/lessons/12950)
+- [핸드폰 번호 가리기](https://programmers.co.kr/learn/courses/30/lessons/12948)
+
 <br>
+
 <!-- (중)  -->
+- [실패율](https://programmers.co.kr/learn/courses/30/lessons/42889)
+
 <br>
+
 <!-- (상)  -->
 
 ---

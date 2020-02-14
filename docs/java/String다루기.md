@@ -11,21 +11,26 @@
 
 
 ### 문자열을 다른 타입으로 변환하는 메서드
+#### char 배열로 변환하기
 - toCharArray() : 문자열을 char 배열로 변환
 - 코드 예시
 
 ```java
-String s1;
-char[] chr_arr = s1.toCharArray();
+String str1;
+char[] chr_arr = str1.toCharArray();
 ```
 <br>
 
+#### int 타입으로 변환하기
 - Integer.parseInt() : 문자열을 int형 값으로 변환
 - 코드 예시
 ```java
-String s2 = "2342525";
-int a = Integer.parseInt(s2);
+String str2 = "2342525";
+int a = Integer.parseInt(str2);
 ```
+
+#### long 타입으로변환하기
+-Long.parseLong(str);
 
 <!-- int배열을 문자열로, 문자열을 int배열로 -->
 

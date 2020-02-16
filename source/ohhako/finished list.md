@@ -35,13 +35,14 @@
 - [직사각형 별찍기](https://programmers.co.kr/learn/courses/30/lessons/12969)
 - [행렬의 덧셈](https://programmers.co.kr/learn/courses/30/lessons/12950)
 - [핸드폰 번호 가리기](https://programmers.co.kr/learn/courses/30/lessons/12948)
+- [정수 제곱근 판별](https://programmers.co.kr/learn/courses/30/lessons/12934)
 
 <br>
 
 <!-- (중)  -->
 - [실패율](https://programmers.co.kr/learn/courses/30/lessons/42889)
 - [프린터](https://programmers.co.kr/learn/courses/30/lessons/42587)
-
+- [문자열압축](https://programmers.co.kr/learn/courses/30/lessons/60057)
 <br>
 
 <!-- (상)  -->

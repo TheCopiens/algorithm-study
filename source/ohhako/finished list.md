@@ -25,7 +25,7 @@
 <!-- (상)  -->
 
 ---
-#### 2주차 (2020-02-01~2020-02-08)
+#### 2주차 (2020-02-09~2020-02-15)
 <!-- (하)  -->
 - [자릿수더하기](https://programmers.co.kr/learn/courses/30/lessons/12931)
 - [자연수 뒤집어 배열로 만들기](https://programmers.co.kr/learn/courses/30/lessons/12932)
@@ -35,22 +35,26 @@
 - [직사각형 별찍기](https://programmers.co.kr/learn/courses/30/lessons/12969)
 - [행렬의 덧셈](https://programmers.co.kr/learn/courses/30/lessons/12950)
 - [핸드폰 번호 가리기](https://programmers.co.kr/learn/courses/30/lessons/12948)
+- [정수 제곱근 판별](https://programmers.co.kr/learn/courses/30/lessons/12934)
 
 <br>
 
 <!-- (중)  -->
 - [실패율](https://programmers.co.kr/learn/courses/30/lessons/42889)
 - [프린터](https://programmers.co.kr/learn/courses/30/lessons/42587)
-
+- [문자열압축](https://programmers.co.kr/learn/courses/30/lessons/60057)
 <br>
 
 <!-- (상)  -->
 
 ---
-#### 3주차 (2020-02-01~2020-02-08)
+#### 3주차 (2020-02-16~2020-02-22)
 <!-- (하)  -->
+- [제일 작은 수 제거하기](https://programmers.co.kr/learn/courses/30/lessons/12935)
+
 <br>
 <!-- (중)  -->
+
 <br>
 <!-- (상)  -->
 

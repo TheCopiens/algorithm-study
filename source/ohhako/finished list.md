@@ -51,10 +51,12 @@
 #### 3주차 (2020-02-16~2020-02-22)
 <!-- (하)  -->
 - [제일 작은 수 제거하기](https://programmers.co.kr/learn/courses/30/lessons/12935)
+- [콜라츠 추측](https://programmers.co.kr/learn/courses/30/lessons/12943?language=java)
 
 <br>
 <!-- (중)  -->
 
+- [다트게임](https://programmers.co.kr/learn/courses/30/lessons/17682)
 <br>
 <!-- (상)  -->
 

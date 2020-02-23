@@ -61,6 +61,7 @@
    - ex) 퀵소트,버블소트 이론 정리하기, 관련문제 풀기 등등
    - ex) 한달동안 알고리즘 100문제 풀기
 2. 설정한 목표치를 프로젝트보드에 업로드
+   - 예시) https://github.com/TheCopiens/algorithm-study/projects/1
 3. 각자 풀이코드를 소스파일이나 마크다운으로 작성해 업로드
    - 이론은 contents폴더 / 코드나 풀이는 source폴더 하위에 개인폴더 생성
    - [hasing](https://github.com/TheCopiens/algorithm-study/blob/master/contents/hashing.md#hashing)

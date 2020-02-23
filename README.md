@@ -56,15 +56,19 @@
 ## 팀원 스터디 진행 방법
 
 ### 온라인 스터디
-1. 한달동안의 목표치 설정
+1. 한달동안 주간계획/ 목표치 설정
+   - 주간계획은 팀공동문제 + 개인목표
    - ex) 카카오2017~2020,삼성A테스트 풀기
    - ex) 퀵소트,버블소트 이론 정리하기, 관련문제 풀기 등등
    - ex) 한달동안 알고리즘 100문제 풀기
 2. 설정한 목표치를 프로젝트보드에 업로드
    - 예시) https://github.com/TheCopiens/algorithm-study/projects/1
-3. 각자 풀이코드를 소스파일이나 마크다운으로 작성해 업로드
-   - 이론은 contents폴더 / 코드나 풀이는 source폴더 하위에 개인폴더 생성
-   - [hasing](https://github.com/TheCopiens/algorithm-study/blob/master/contents/hashing.md#hashing)
+3. 일주일동안 주간계획 실행
+   - 팀 공동문제는 반드시 풀고 깃허브 업로드
+   - 개인 문제는 필요시 선택적 업로드
+   - 업로드시 마크다운 작성 or source code
+   - 이론공부 필요시 contents폴더에 업로드/ 문제풀이는 source폴더 하위에 개인폴더 생성해 업로드
+   - [hasing이론](https://github.com/TheCopiens/algorithm-study/blob/master/contents/hashing.md#hashing)
 4. 모든 질문은 issue,pull request, 카톡 에서 진행
 
 ### 미팅 스터디

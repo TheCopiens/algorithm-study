@@ -52,7 +52,6 @@
 <!-- (하)  -->
 - [제일 작은 수 제거하기](https://programmers.co.kr/learn/courses/30/lessons/12935)
 - [콜라츠 추측](https://programmers.co.kr/learn/courses/30/lessons/12943?language=java)
-
 <br>
 <!-- (중)  -->
 
@@ -61,10 +60,13 @@
 <!-- (상)  -->
 
 ---
-#### 4주차 (2020-02-01~2020-02-08)
+#### 4주차 (2020-02-23~2020-02-29)
 
 <!-- (하)  -->
 <br>
+
 <!-- (중)  -->
+- [스킬트리](https://programmers.co.kr/learn/courses/30/lessons/49993)
+- [124나라의 숫자](https://programmers.co.kr/learn/courses/30/lessons/12899#)
 <br>
 <!-- (상)  -->

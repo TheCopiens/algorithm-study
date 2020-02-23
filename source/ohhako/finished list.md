@@ -52,7 +52,6 @@
 <!-- (하)  -->
 - [제일 작은 수 제거하기](https://programmers.co.kr/learn/courses/30/lessons/12935)
 - [콜라츠 추측](https://programmers.co.kr/learn/courses/30/lessons/12943?language=java)
-
 <br>
 <!-- (중)  -->
 
@@ -65,6 +64,8 @@
 
 <!-- (하)  -->
 <br>
+
 <!-- (중)  -->
+- [스킬트리](https://programmers.co.kr/learn/courses/30/lessons/49993)
 <br>
 <!-- (상)  -->

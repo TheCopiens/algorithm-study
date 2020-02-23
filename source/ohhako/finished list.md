@@ -67,5 +67,6 @@
 
 <!-- (중)  -->
 - [스킬트리](https://programmers.co.kr/learn/courses/30/lessons/49993)
+- [124나라의 숫자](https://programmers.co.kr/learn/courses/30/lessons/12899#)
 <br>
 <!-- (상)  -->

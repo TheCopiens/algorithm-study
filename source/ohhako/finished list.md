@@ -67,8 +67,11 @@
 - [짝수와 홀수](https://programmers.co.kr/learn/courses/30/lessons/12937)
 
 
-<!-- - [하샤드수](https://programmers.co.kr/learn/courses/30/lessons/12947)
-- [최대공약수 최소공배수](https://programmers.co.kr/learn/courses/30/lessons/12940) -->
+<!-- 
+- [하샤드수](https://programmers.co.kr/learn/courses/30/lessons/12947)
+- [최대공약수 최소공배수](https://programmers.co.kr/learn/courses/30/lessons/12940) 
+- [boj 소수구하기]https://www.acmicpc.net/problem/1929
+-->
 
 <br>
 

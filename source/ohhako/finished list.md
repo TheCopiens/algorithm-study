@@ -65,10 +65,14 @@
 <!-- (하)  -->
 
 - [짝수와 홀수](https://programmers.co.kr/learn/courses/30/lessons/12937)
+- [boj 소수구하기](https://www.acmicpc.net/problem/1929)
+- [boj 소수찾기](https://www.acmicpc.net/problem/1978)
+<!-- 
+- [하샤드수](https://programmers.co.kr/learn/courses/30/lessons/12947)
+- [최대공약수 최소공배수](https://programmers.co.kr/learn/courses/30/lessons/12940) 
 
+-->
 
-<!-- - [하샤드수](https://programmers.co.kr/learn/courses/30/lessons/12947)
-- [최대공약수 최소공배수](https://programmers.co.kr/learn/courses/30/lessons/12940) -->
 
 <br>
 
@@ -79,15 +83,14 @@
 - [기능개발](https://programmers.co.kr/learn/courses/30/lessons/42586)
 - [H-Index](https://programmers.co.kr/learn/courses/30/lessons/42747)
 - [소수 찾기](https://programmers.co.kr/learn/courses/30/lessons/42839)
-<!-- 
-
 - [큰 수 만들기](https://programmers.co.kr/learn/courses/30/lessons/42883)
+
+<!-- 
 - [숫자야구](https://programmers.co.kr/learn/courses/30/lessons/42841)
 - [주식가격](https://programmers.co.kr/learn/courses/30/lessons/42584)
 - [조이스틱](https://programmers.co.kr/learn/courses/30/lessons/42860)
 - [구명보트](https://programmers.co.kr/learn/courses/30/lessons/42885)
 - [더맵게](https://programmers.co.kr/learn/courses/30/lessons/42626) 
-
 -->
 
 <br>

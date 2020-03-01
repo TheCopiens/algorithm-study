@@ -2,13 +2,10 @@
 - 시저 암호
     - https://programmers.co.kr/learn/courses/30/lessons/12926
 
-## 풀이 방법
+## 문제 접근 방법
 TBD
 
-### 문제 접근 방법
-TBD
-
-### 코드 구현
+## 코드 구현
 ```java
 import java.util.*;
 

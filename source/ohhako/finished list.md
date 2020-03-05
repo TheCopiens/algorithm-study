@@ -68,7 +68,7 @@
  [기능개발](https://programmers.co.kr/learn/courses/30/lessons/42586)
  [H-Index](https://programmers.co.kr/learn/courses/30/lessons/42747)
  [소수 찾기](https://programmers.co.kr/learn/courses/30/lessons/42839)
- [큰 수 만들기](https://programmers.co.kr/learn/courses/30/lessons/42883)
+
 
 
 
@@ -77,7 +77,6 @@
 
 #### 3월 1주차 (2020-03-01~2020-03-07)
 <!-- (하)  -->
-
  [하샤드수](https://programmers.co.kr/learn/courses/30/lessons/12947)
  [최대공약수 최소공배수](https://programmers.co.kr/learn/courses/30/lessons/12940) 
 
@@ -86,10 +85,14 @@
 - [주식가격](https://programmers.co.kr/learn/courses/30/lessons/42584)
 - [숫자야구](https://programmers.co.kr/learn/courses/30/lessons/42841)
 - [조이스틱](https://programmers.co.kr/learn/courses/30/lessons/42860)
+- [큰 수 만들기](https://programmers.co.kr/learn/courses/30/lessons/42883)
+- [구명보트](https://programmers.co.kr/learn/courses/30/lessons/42885)
+- [저울](https://programmers.co.kr/learn/courses/30/lessons/42886)
+- [더맵게](https://programmers.co.kr/learn/courses/30/lessons/42626) 
 
 <!-- 
- [구명보트](https://programmers.co.kr/learn/courses/30/lessons/42885)
- [더맵게](https://programmers.co.kr/learn/courses/30/lessons/42626) 
+
+
 -->
 
 <!-- (상)  -->

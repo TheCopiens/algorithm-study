@@ -14,9 +14,18 @@
 
 ### 탐욕법 (greedy 탐색)
 매순간 최적이라고 생각되는 것을 선택해 나가는 방식이다. 그리디 알고리즘을 풀 때 중요 포인트는 '어떤 기준으로' 탐욕적인 선택을 하느냐 이다. 
+1. 답 내는 과정 여러부분으로 나누기
+2. 탐욕적 선택 기준 정하기
+3. 탐욕적 선택 속성, 최적 부분 구조 따져보기 
+    - [탐욕법 알고리즘 정리글 참고](https://github.com/TheCopiens/algorithm-study/blob/master/contents/greedy.md)
+<br>
 
-- [배낭문제]()
+- **탐욕법 문제 목록**
+- 배낭문제
 - [체육복](https://github.com/TheCopiens/algorithm-study/blob/master/source/ohhako/200202_greedy.md)
+    - 최소부분해(체육복 있는 학생)/다음 부분해(체육복 없지만 여분있는)/다음 부분해(앞뒤로 체육복 빌리는 학생)
 - [큰수만들기](https://github.com/TheCopiens/algorithm-study/blob/master/source/ohhako/200228_greedy.md)
 - [조이스틱](https://github.com/TheCopiens/algorithm-study/blob/master/source/ohhako/200303_greedy.md)
+    - 해 구하는 방법을 네가지로 나눈다. (위아래 이동/우로 이동/좌로이동/우로 이동하다 되돌아와 좌로 이동)
 - [예산](https://github.com/TheCopiens/algorithm-study/blob/master/source/ohhako/coding%20test/2018_summerCoding2.md)
+    - '가장 금액이 낮은 지원비'는 탐욕적 선택 속성이며 본 문제는 최적 부분 구조를 만족한다

@@ -50,6 +50,7 @@
  [콜라츠 추측](https://programmers.co.kr/learn/courses/30/lessons/12943?language=java)
 <br>
 <!-- (중)  -->
+
  [다트게임](https://programmers.co.kr/learn/courses/30/lessons/17682)
 <br>
 
@@ -77,10 +78,10 @@
 
 #### 3월 1주차 (2020-03-01~2020-03-07)
 <!-- (하)  -->
- [하샤드수](https://programmers.co.kr/learn/courses/30/lessons/12947)
- [최대공약수 최소공배수](https://programmers.co.kr/learn/courses/30/lessons/12940) 
-
-
+- [하샤드수](https://programmers.co.kr/learn/courses/30/lessons/12947)
+- [최대공약수 최소공배수](https://programmers.co.kr/learn/courses/30/lessons/12940) 
+- [boj 일곱난쟁이](https://www.acmicpc.net/problem/2309) 
+- [boj 분해합](https://www.acmicpc.net/problem/2231)
 <!-- (중)  -->
 - [주식가격](https://programmers.co.kr/learn/courses/30/lessons/42584)
 - [숫자야구](https://programmers.co.kr/learn/courses/30/lessons/42841)

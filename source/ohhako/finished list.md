@@ -86,9 +86,7 @@
 - [boj 덩치](https://www.acmicpc.net/problem/7568)
 - [boj 체스판칠하기](https://www.acmicpc.net/problem/1018)
 - [boj 나이순정렬](https://www.acmicpc.net/problem/10814)
-- [boj 동전](https://www.acmicpc.net/problem/11047)
-- [boj 정수삼각형](https://www.acmicpc.net/problem/1932)
-- [스택](https://www.acmicpc.net/problem/10773)
+
 <br>
 
 <!-- (중)  -->
@@ -101,9 +99,7 @@
 - [boj 회의실](https://www.acmicpc.net/problem/1931)
 - [소수만들기](https://programmers.co.kr/learn/courses/30/lessons/12977)
 - [캐시](https://programmers.co.kr/learn/courses/30/lessons/17680)
-- [균형잡힌 세상](https://www.acmicpc.net/problem/4949)
-- [저울](https://programmers.co.kr/learn/courses/30/lessons/42886)
-- [더맵게](https://programmers.co.kr/learn/courses/30/lessons/42626) 
+
 
 <br>
 
@@ -114,11 +110,18 @@
  #### 3월 2주차 (2020-03-08~2020-03-14)
 - 하
 - [boj 연속합](https://www.acmicpc.net/problem/1912)
+- [boj 동전](https://www.acmicpc.net/problem/11047)
+- [boj 정수삼각형](https://www.acmicpc.net/problem/1932)
+- [스택](https://www.acmicpc.net/problem/10773)
 
 - 중
+
 - [boj 스택](https://www.acmicpc.net/problem/10828)
 - [boj 피보나치2](https://www.acmicpc.net/problem/2748)
 - [boj 피보나치 함수](https://www.acmicpc.net/problem/1003)
+- [균형잡힌 세상](https://www.acmicpc.net/problem/4949)
+- [저울](https://programmers.co.kr/learn/courses/30/lessons/42886)
+- [더맵게](https://programmers.co.kr/learn/courses/30/lessons/42626) 
 
 - 상
 - [boj 연속합](https://www.acmicpc.net/problem/1912)

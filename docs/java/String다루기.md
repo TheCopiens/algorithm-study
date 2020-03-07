@@ -65,3 +65,21 @@ int a = Integer.parseInt(str2);
 - sb.capacity() : 용량의 크기
 - sb.reverse() : 문자열 역순으로 변경
 * 참고로 StringBuilder는 단일 스레드용, StringBuffer는 멀티 스레드용으로 사용하는것을 권장한다.
+
+
+### String 입력받을 때
+- next() : 문자나 문자열을 공백 기준으로 입력받는다.
+- nextLine(): 문자 또는 문자열을 한 라인씩 입력받는다. 즉 enter 마다 입력는다.
+- Scanner로 int형 받은 다음 String형 받을때
+    - Scanner로 int형 받은 다음 String형 받을때 주의해야 한다. nextInt는 개행을 포함하지 않지만 nextLine은 포함시키기 때문에 int입력시에 포함되었던 개행문자가 다음 nextLine에 포함된다. 그 결과 사용자 입력을 실제로 받지않고 지나친다. 그러니 이 부분을 유의해서 실수하지 않도록 하자.
+
+- 해결방법: nextInt와 nextLine 사이에 sc.nextLine 메서드를 한번 더 써준다.
+```java
+Scanner sc = new Scanner(System.in);
+String[] arr = new  String[3];
+int num = sc.nextInt(); //1
+sc.nextLine(); //2
+for(int i=0 ; i<3 ; i++){
+    arr[i] = sc.nextLine();
+}
+```

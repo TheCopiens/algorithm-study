@@ -101,9 +101,7 @@
 - [boj 회의실](https://www.acmicpc.net/problem/1931)
 - [소수만들기](https://programmers.co.kr/learn/courses/30/lessons/12977)
 - [캐시](https://programmers.co.kr/learn/courses/30/lessons/17680)
-- [균형잡힌 세상](https://www.acmicpc.net/problem/4949)
-- [저울](https://programmers.co.kr/learn/courses/30/lessons/42886)
-- [더맵게](https://programmers.co.kr/learn/courses/30/lessons/42626) 
+
 
 <br>
 
@@ -119,6 +117,9 @@
 - [boj 스택](https://www.acmicpc.net/problem/10828)
 - [boj 피보나치2](https://www.acmicpc.net/problem/2748)
 - [boj 피보나치 함수](https://www.acmicpc.net/problem/1003)
+- [균형잡힌 세상](https://www.acmicpc.net/problem/4949)
+- [저울](https://programmers.co.kr/learn/courses/30/lessons/42886)
+- [더맵게](https://programmers.co.kr/learn/courses/30/lessons/42626) 
 
 - 상
 - [boj 연속합](https://www.acmicpc.net/problem/1912)

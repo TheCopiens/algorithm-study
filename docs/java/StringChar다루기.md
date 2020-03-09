@@ -67,10 +67,11 @@ int a = Integer.parseInt(str2);
 - str.toUpperCase(): 문자열을 모두 **대문자로 변환**하여 반환한다.
 
 ### 문자열에서 특정 문자열 포함여부 확인 메서드
-- str.contains("abc"): 문자열에서 매개변수로 넘긴 문자열이 포함되어 있으면 true, 포함되지 않았으면 false를 리턴한다.
+- str.contains("abc"): 문자열에서 매개변수로 넘긴 문자열이 포함되어 있으면 true, 포함되지 않았으면 false를 반환한다.
 
 ### 문자가 숫자인지 확인하는 메서드
-- Character.isDigit(char ch) 
+- **문자**를 확인하므로 문자열에서 문자를 추출해 매개변수로 넘겨주어야 한다. 
+- Character.isDigit(char ch) : 매개변수 ch가 숫자면 true, 숫자가 아니면 false를 반환한다.
 
 
 ### StringBuilder API 사용하기

@@ -106,6 +106,7 @@
 - [boj 동전](https://www.acmicpc.net/problem/11047)
 - [boj 제로](https://www.acmicpc.net/problem/10773)
 - [boj 스택](https://www.acmicpc.net/problem/10828)
+- [boj 영화감독숌](https://www.acmicpc.net/status?user_id=hrkeon0503&problem_id=1436&from_mine=1)
  <!-- 
 
 

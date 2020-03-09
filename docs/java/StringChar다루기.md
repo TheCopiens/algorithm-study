@@ -11,26 +11,26 @@
 
 
 ### 문자열을 다른 타입으로 변환하는 메서드
-#### char 배열로 변환하기
-- toCharArray() : 문자열을 char 배열로 변환
-- 코드 예시
+- **char 배열로 변환하기**
+    - toCharArray() : 문자열을 char 배열로 변환
+    - 코드 예시
 
 ```java
 String str1;
 char[] chr_arr = str1.toCharArray();
 ```
-<br>
 
-#### int 타입으로 변환하기
-- Integer.parseInt() : 문자열을 int형 값으로 변환
-- 코드 예시
+- **int 타입으로 변환하기**
+    - Integer.parseInt() : 문자열을 int형 값으로 변환
+    - 코드 예시
+    
 ```java
 String str2 = "2342525";
 int a = Integer.parseInt(str2);
 ```
 
-#### long 타입으로변환하기
--Long.parseLong(str);
+- **long 타입으로 변환하기**
+    - Long.parseLong(str);
 
 <!-- int배열을 문자열로, 문자열을 int배열로 -->
 
@@ -39,12 +39,12 @@ int a = Integer.parseInt(str2);
 - void Arrays.copyOfRange(Object[] obj,int from, int to+1)
 
 ### 정렬 메서드
-#### 오름차순 정렬 메서드
-- Arrays.sort(Object[] obj) 
-- Arrays.sort(Object[] obj, int from, int to+1) : 인자의 배열을 인덱스 from부터 to까지 정렬
-#### 내림차순 정렬 메서드
-- Arrays.sort(Integer[] arr, Collections.reverseOrder())
-- 넘겨주는 파라미터가 반드시 **Integer 타입**이어야 한다.
+- **오름차순 정렬 메서드**
+    - Arrays.sort(Object[] obj) 
+    - Arrays.sort(Object[] obj, int from, int to+1) : 인자의 배열을 인덱스 from부터 to까지 정렬
+- **내림차순 정렬 메서드**
+    - Arrays.sort(Integer[] arr, Collections.reverseOrder())
+    - 넘겨주는 파라미터가 반드시 **Integer 타입**이어야 한다.
 
 
 ### 문자열 자르기 메서드

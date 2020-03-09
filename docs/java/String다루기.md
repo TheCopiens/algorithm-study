@@ -55,6 +55,17 @@ int a = Integer.parseInt(str2);
 - param1.concat(param2) : 합친 문자열을 String으로 생성해줌
 - param1 + param2 : StringBuilder로 변환시킨 후 append()로 이어붙이고 toString()으로 문자열 반환
 
+### 문자열 쪼개기 메서드
+- str.split("a"): 문자열을 a라는 문자열을 기준으로 쪼갠 배열로 만들어 반환한다.
+    - str.split("") 이렇게 사용하면 문자가 하나씩 쪼개진다. 문자열의 길이와 동일한 크기의 배열이 만들어 진다.
+
+### 문자열 앞뒤 공백 제거
+- s1.trim(): 문자열의 앞, 뒤 공백을 제거하여 반환한다. 문자열 중간에 있는 공백은 제거하지 않는다.
+
+### 영어 대소문자 변환 메서드
+str.toLowerCase(): 문자열을 모두 **소문자로 변환**하여 반환한다.
+str.toUpperCase(): 문자열을 모두 **대문자로 변환**하여 반환한다.
+
 
 ### StringBuilder API 사용하기
 - StringBuilder sb = new StringBuilder() : StringBuilder 객체 선언
@@ -67,7 +78,7 @@ int a = Integer.parseInt(str2);
 * 참고로 StringBuilder는 단일 스레드용, StringBuffer는 멀티 스레드용으로 사용하는것을 권장한다.
 
 
-### String 입력받을 때
+### String 사용자 입력 받을때
 - next() : 문자나 문자열을 공백 기준으로 입력받는다.
 - nextLine(): 문자 또는 문자열을 한 라인씩 입력받는다. 즉 enter 마다 입력는다.
 - Scanner로 int형 받은 다음 String형 받을때

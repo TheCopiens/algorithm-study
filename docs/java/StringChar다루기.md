@@ -63,8 +63,14 @@ int a = Integer.parseInt(str2);
 - s1.trim(): 문자열의 앞, 뒤 공백을 제거하여 반환한다. 문자열 중간에 있는 공백은 제거하지 않는다.
 
 ### 영어 대소문자 변환 메서드
-str.toLowerCase(): 문자열을 모두 **소문자로 변환**하여 반환한다.
-str.toUpperCase(): 문자열을 모두 **대문자로 변환**하여 반환한다.
+- str.toLowerCase(): 문자열을 모두 **소문자로 변환**하여 반환한다.
+- str.toUpperCase(): 문자열을 모두 **대문자로 변환**하여 반환한다.
+
+### 문자열에서 특정 문자열 포함여부 확인 메서드
+- str.contains("abc"): 문자열에서 매개변수로 넘긴 문자열이 포함되어 있으면 true, 포함되지 않았으면 false를 리턴한다.
+
+### 문자가 숫자인지 확인하는 메서드
+- Character.isDigit(char ch) 
 
 
 ### StringBuilder API 사용하기

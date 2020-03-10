@@ -23,6 +23,13 @@
 3. 배낭 문제
 
 
+
+### 탐욕법을 활용한 문제
+- [동물원](https://www.acmicpc.net/problem/1309)
+- [기타리스트](https://www.acmicpc.net/problem/1495)
+- [LCS](https://www.acmicpc.net/problem/9251)
+- [동전2](https://www.acmicpc.net/problem/2294)
+
 ---
 ### 위에서 나온 용어정리
 - 재귀호출 : 함수 내부에서 해당 함수를 또 호출하는 방식 

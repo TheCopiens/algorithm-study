@@ -112,13 +112,13 @@
 
 <!-- (중) -->
 - [boj 정수삼각형](https://www.acmicpc.net/problem/1932)
+- [더맵게](https://programmers.co.kr/learn/courses/30/lessons/42626) 
 <!-- - [boj 동전1](https://www.acmicpc.net/problem/2293) -->
 
 <!-- 
 - [boj 피보나치 함수](https://www.acmicpc.net/problem/1003)
 - [균형잡힌 세상](https://www.acmicpc.net/problem/4949)
 - [저울](https://programmers.co.kr/learn/courses/30/lessons/42886)
-- [더맵게](https://programmers.co.kr/learn/courses/30/lessons/42626) 
 - [캐시](https://programmers.co.kr/learn/courses/30/lessons/17680)
 
 - 상

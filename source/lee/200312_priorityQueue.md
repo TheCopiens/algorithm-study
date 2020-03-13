@@ -1,13 +1,31 @@
-# 라면공장
-    - https://programmers.co.kr/learn/courses/30/lessons/42629
+# 더맵게
+    - https://programmers.co.kr/learn/courses/30/lessons/42626
 
 ## 문제 접근 방법
 
-### 문제점
-문제 설명은 이해했는데 공통적인 접근 방법을 전혀 떠올리지 못했다. 다른사람 코드 보고 공부함
 
 ## 코드 구현
 ```java
+import java.util.*;
+class Solution {
+    public int solution(int[] scoville, int K) {
+        PriorityQueue<Integer> queue = new PriorityQueue<>(scoville.length);
+        for (int i: scoville) queue.add(i);
+        int count=0;
+        while (queue.size()>1) {
+            count++;
+            int sco1 = queue.poll();
+            int sco2 = queue.poll();
+            int newSco = sco1 + 2*sco2;
+            queue.add(newSco);
+            if (queue.peek()>K) return count;
+
+        }
+
+
+        return -1;
+    }
+}
 
 ```
 

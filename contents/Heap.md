@@ -13,3 +13,19 @@
 ![img load fail](../imgs/heapData.png)
 - 왼쪽자식은 부모 인덱스x2, 오른쪽 자식은 부모인덱스x2+1 
 - 자식노드(N)의 부모노드는 N/2로 표현한다.
+
+### 최소힙 소스 코드
+- 배열리스트로 구현한 최소힙
+	- 
+- 출력 결과 구조
+![img load fail](./imgs/heap결과.png)
+
+
+### 탐욕법을 활용한 문제
+- [더맵게](https://github.com/TheCopiens/algorithm-study/blob/master/source/ohhako/200312_heap.md)
+
+
+---
+아래의 사이트를 참고해 작성된 글입니다.
+- https://hannom.tistory.com/36
+- 

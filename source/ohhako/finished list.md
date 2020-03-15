@@ -70,9 +70,6 @@
  [H-Index](https://programmers.co.kr/learn/courses/30/lessons/42747)
  [소수 찾기](https://programmers.co.kr/learn/courses/30/lessons/42839)
 
-
-
-
 <br>
 <!-- (상)  -->
 
@@ -103,16 +100,24 @@
 
  #### 3월 2주차 (2020-03-08~2020-03-14)
 <!-- (하)  -->
-- [boj 동전](https://www.acmicpc.net/problem/11047)
-
-- [boj 제로](https://www.acmicpc.net/problem/10773)
-- [boj 스택](https://www.acmicpc.net/problem/10828)
-- [boj 영화감독숌](https://www.acmicpc.net/status?user_id=hrkeon0503&problem_id=1436&from_mine=1)
-- [boj 피보나치2](https://www.acmicpc.net/problem/2748)
+ [boj 동전](https://www.acmicpc.net/problem/11047)
+ [boj 제로](https://www.acmicpc.net/problem/10773)
+ [boj 스택](https://www.acmicpc.net/problem/10828)
+ [boj 영화감독숌](https://www.acmicpc.net/status?user_id=hrkeon0503&problem_id=1436&from_mine=1)
+ [boj 피보나치2](https://www.acmicpc.net/problem/2748)
 
 <!-- (중) -->
-- [boj 정수삼각형](https://www.acmicpc.net/problem/1932)
-- [더맵게](https://programmers.co.kr/learn/courses/30/lessons/42626) 
+ [boj 정수삼각형](https://www.acmicpc.net/problem/1932)
+ [더맵게](https://programmers.co.kr/learn/courses/30/lessons/42626) 
+
+<!-- (상) -->
+ [방금그곡](https://programmers.co.kr/learn/courses/30/lessons/17683)
+
+#### 3월 3주차 (2020-03-15~2020-03-21)
+
+- [boj 동물원](https://www.acmicpc.net/problem/1309) 
+
+
 <!-- - [boj 동전1](https://www.acmicpc.net/problem/2293) -->
 
 <!-- 
@@ -124,5 +129,3 @@
 - 상
 - [boj 연속합](https://www.acmicpc.net/problem/1912)
   -->
-
-  - [방금그곡](https://programmers.co.kr/learn/courses/30/lessons/17683)

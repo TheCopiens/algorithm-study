@@ -2,6 +2,7 @@
 * &#42; DataB님이 도움주신 코드입니다.
 
 ### 개선된 부분
+- [이전코드](https://github.com/TheCopiens/algorithm-study/blob/master/source/ohhako/coding%20test/kakao/2018_%EB%B0%A9%EA%B8%88%EA%B7%B8%EA%B3%A1.md)
 - 내가 들은 음계m과 음계를 비교하는 부분
     - 기존 방식: 시간 길이만큼 sheet와 m의 음을 chatAt메서드로 하나씩 확인했다.
     - 변경 방식

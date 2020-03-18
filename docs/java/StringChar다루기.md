@@ -76,6 +76,7 @@ int a = Integer.parseInt(str2);
 
 ### StringBuilder API 사용하기
 - StringBuilder sb = new StringBuilder() : StringBuilder 객체 선언
+- sb.charAt(int i) : 문자열의 인덱스 i 문자
 - sb.toString() : 문자열 string으로 변환
 - sb.substring(int from,int to+1) : 인덱스 이용해 문자열 추출 (반환할뿐, 저장하지 않음)
 - sb.append(String param) : 문자열 마지막에 다른 문자열 연결하여 이어 붙이기

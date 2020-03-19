@@ -118,6 +118,7 @@
 - [boj 피보나치 함수](https://www.acmicpc.net/problem/1003)
 - [boj 01타일](https://www.acmicpc.net/problem/1904)
 - [파도반수열](https://www.acmicpc.net/problem/9461)
+- [카드 구매하기](https://www.acmicpc.net/problem/11052)
 
 - [더맵게](https://programmers.co.kr/learn/courses/30/lessons/42626)
 

@@ -30,7 +30,7 @@ class Solution {
 
     public int[] solution(int[] heights) {
 
-        Stack<Tower> s = new Stack<>();
+        Stack<Tower> st = new Stack<>();
         int[] answer = new int[heights.length];
 
         for (int i = 0; i < heights.length; i++) {
@@ -38,8 +38,8 @@ class Solution {
             Tower tower = new Tower(i + 1, heights[i]);
             int receiverIndex = 0;
 
-            while (!s.isEmpty()) {
-                Tower left = s.peek();
+            while (!st.isEmpty()) {
+                Tower left = st.peek();
 
                 if (left.height > tower.height) {
                     receiverIndex = left.index;

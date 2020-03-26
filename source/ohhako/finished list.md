@@ -130,16 +130,27 @@
 <!-- (상) -->
 [방금그곡](https://programmers.co.kr/learn/courses/30/lessons/17683)
 
-#### 3월 2주차 (2020-03-16~2020-03-22)
-- [boj 피보나치 함수](https://www.acmicpc.net/problem/1003)
-- [boj 01타일](https://www.acmicpc.net/problem/1904)
-- [파도반수열](https://www.acmicpc.net/problem/9461)
-- [카드 구매하기](https://www.acmicpc.net/problem/11052)
+#### 3월 3주차 (2020-03-16~2020-03-22)
+ [boj 피보나치 함수](https://www.acmicpc.net/problem/1003)
+ [동물원](https://www.acmicpc.net/problem/1309)
+ [boj 01타일](https://www.acmicpc.net/problem/1904)
+ [파도반수열](https://www.acmicpc.net/problem/9461)
+ [카드 구매하기](https://www.acmicpc.net/problem/11052)
 
+<<<<<<< HEAD
 - [더맵게](https://programmers.co.kr/learn/courses/30/lessons/42626)
+>>>>>>> ohhako
+=======
+ [더맵게](https://programmers.co.kr/learn/courses/30/lessons/42626)
+ [압축](https://programmers.co.kr/learn/courses/30/lessons/17684)
+
+#### 3월 3주차 (2020-03-23~2020-03-29)
+- [boj rgb거리](https://www.acmicpc.net/problem/1149)
 >>>>>>> ohhako
 
 <!-- - [boj 동전1](https://www.acmicpc.net/problem/2293) -->
+- [boj 타일채우기](https://mizzo-dev.tistory.com/entry/baekjoon2133)
+- [뉴스 클러스터링](https://programmers.co.kr/learn/courses/30/lessons/17677)
 
 <!-- 
 

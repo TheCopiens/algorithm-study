@@ -70,15 +70,11 @@
  [H-Index](https://programmers.co.kr/learn/courses/30/lessons/42747)
  [소수 찾기](https://programmers.co.kr/learn/courses/30/lessons/42839)
 
-
-
-
 <br>
 <!-- (상)  -->
 
 #### 3월 1주차 (2020-03-01~2020-03-07)
-<!-- (하)  -->
-[하샤드수](https://programmers.co.kr/learn/courses/30/lessons/12947)
+ [하샤드수](https://programmers.co.kr/learn/courses/30/lessons/12947)
  [최대공약수 최소공배수](https://programmers.co.kr/learn/courses/30/lessons/12940) 
  [boj 일곱난쟁이](https://www.acmicpc.net/problem/2309) 
  [boj 분해합](https://www.acmicpc.net/problem/2231)
@@ -87,7 +83,6 @@
  [boj 나이순정렬](https://www.acmicpc.net/problem/10814)
 <br>
 
-<!-- (중)  -->
  [주식가격](https://programmers.co.kr/learn/courses/30/lessons/42584)
  [숫자야구](https://programmers.co.kr/learn/courses/30/lessons/42841)
  [조이스틱](https://programmers.co.kr/learn/courses/30/lessons/42860)
@@ -97,21 +92,17 @@
  [소수만들기](https://programmers.co.kr/learn/courses/30/lessons/12977)
 <br>
 
-<!-- (상)  -->
  [파일명 정렬](https://programmers.co.kr/learn/courses/30/lessons/17686)
 
-
 #### 3월 2주차 (2020-03-08~2020-03-15)
-<!-- (하)  -->
 [boj 동전](https://www.acmicpc.net/problem/11047)
 [boj 제로](https://www.acmicpc.net/problem/10773)
 [boj 스택](https://www.acmicpc.net/problem/10828)
 [boj 영화감독숌](https://www.acmicpc.net/status?user_id=hrkeon0503&problem_id=1436&from_mine=1)
 [boj 피보나치2](https://www.acmicpc.net/problem/2748)
 
-<!-- (중) -->
 [boj 정수삼각형](https://www.acmicpc.net/problem/1932)
-<!-- (상) -->
+
 [방금그곡](https://programmers.co.kr/learn/courses/30/lessons/17683)
 
 #### 3월 3주차 (2020-03-16~2020-03-22)
@@ -124,13 +115,13 @@
  [더맵게](https://programmers.co.kr/learn/courses/30/lessons/42626)
  [압축](https://programmers.co.kr/learn/courses/30/lessons/17684)
 
-#### 3월 3주차 (2020-03-23~2020-03-29)
-- [boj rgb거리](https://www.acmicpc.net/problem/1149)
+#### 3월 4주차 (2020-03-23~2020-03-29)
+ [boj rgb거리](https://www.acmicpc.net/problem/1149)
 
 <!-- - [boj 동전1](https://www.acmicpc.net/problem/2293) -->
-- [boj 타일채우기](https://mizzo-dev.tistory.com/entry/baekjoon2133)
-- [뉴스 클러스터링](https://programmers.co.kr/learn/courses/30/lessons/17677)
-- [캐시](https://programmers.co.kr/learn/courses/30/lessons/17680)
+ [boj 타일채우기](https://mizzo-dev.tistory.com/entry/baekjoon2133)
+ [뉴스 클러스터링](https://programmers.co.kr/learn/courses/30/lessons/17677)
+ [캐시](https://programmers.co.kr/learn/courses/30/lessons/17680)
 
 <!-- 
 
@@ -141,4 +132,5 @@
 - 상
 - [boj 연속합](https://www.acmicpc.net/problem/1912)
   -->
-
+### 4월 1주차
+- [순열의 순서](https://www.acmicpc.net/problem/1722)

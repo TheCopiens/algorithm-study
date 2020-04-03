@@ -3,10 +3,11 @@ LINE 2019 기출
 
 ## 문제 접근 방법
 - `크기, 숫자열`입력을 저장하는 클래스를 만듦
-- 최대 높이:max, 각 높이:height, 중간값:middle=max/2-1
+- 최대 높이:max, 각 높이:height, 중간값:middle=max-1
 - TOP정렬일때 숫자가 쓰이기 시작하는 start 위치:0
 - MIDDLE정렬일때 숫자가 쓰이기 시작하는 start 위치:middle-h/2
 - BOTTOM정렬일때 숫자가 쓰이기 시작하는 start 위치:max-h+1
+- 각 가로줄마다 숫자의 startIdx를 비교. 만약 가로줄>=startIdx라면 그 줄에서 size만큼 숫자 프린팅
 
 ### 코드
 ```java

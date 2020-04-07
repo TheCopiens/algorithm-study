@@ -30,7 +30,7 @@ int a = Integer.parseInt(str2);
 ```
 
 #### long 타입으로변환하기
--Long.parseLong(str);
+- Long.parseLong(str);
 
 <!-- int배열을 문자열로, 문자열을 int배열로 -->
 
@@ -42,6 +42,7 @@ int a = Integer.parseInt(str2);
 #### 오름차순 정렬 메서드
 - Arrays.sort(Object[] obj) 
 - Arrays.sort(Object[] obj, int from, int to+1) : 인자의 배열을 인덱스 from부터 to까지 정렬
+
 #### 내림차순 정렬 메서드
 - Arrays.sort(Integer[] arr, Collections.reverseOrder())
 - 넘겨주는 파라미터가 반드시 **Integer 타입**이어야 한다.
@@ -79,10 +80,14 @@ int a = Integer.parseInt(str2);
 - sb.charAt(int i) : 문자열의 인덱스 i 문자
 - sb.toString() : 문자열 string으로 변환
 - sb.substring(int from,int to+1) : 인덱스 이용해 문자열 추출 (반환할뿐, 저장하지 않음)
-- sb.append(String param) : 문자열 마지막에 다른 문자열 연결하여 이어 붙이기
+- sb.append( ) : 문자열 마지막에 다른 객체 연결하여 이어 붙이기. double, int, char[] , long, String 등등 모든 타입을 지원한다.
 - sb.length() : 문자열의 길이
 - sb.capacity() : 용량의 크기
 - sb.reverse() : 문자열 역순으로 변경
+- sb.replace(int a,int b+1,String str) : a와 b사이의 문자열을 str로 대체한다.
+- int indexOf(String str) : 문자열에서 str의 위치 인덱스를 반환한다.
+- sb.insert(int a+1,String str): str 문자열을 인덱스 a에 삽입한다.
+
 * 참고로 StringBuilder는 단일 스레드용, StringBuffer는 멀티 스레드용으로 사용하는것을 권장한다.
 
 

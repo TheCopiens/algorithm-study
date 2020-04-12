@@ -40,7 +40,7 @@ class Solution {
         }
         
         s = s.substring(1,s.length()-1);
-        String[] s_arr = s.split("\\},\\{");
+        String[] s_arr = s.split("},\\{");
         s_arr[0] = s_arr[0].substring(1,s_arr[0].length());
         s_arr[s_arr.length-1] = s_arr[s_arr.length-1].substring(0,s_arr[s_arr.length-1].length()-1);
         Node[] nodes = new Node[s_arr.length];

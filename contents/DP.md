@@ -41,6 +41,7 @@
 ### 탐욕법을 활용한 문제풀이
 
 - [RGB거리](https://github.com/TheCopiens/algorithm-study/blob/master/source/ohhako/boj/1149_dp.md)
+- [정수 삼각형](https://github.com/TheCopiens/algorithm-study/blob/master/source/ohhako/boj/1932_DP.md)
 - [동물원](https://www.acmicpc.net/problem/1309)
 - [기타리스트](https://www.acmicpc.net/problem/1495)
 - [LCS](https://www.acmicpc.net/problem/9251)

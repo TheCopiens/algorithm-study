@@ -30,18 +30,7 @@ int solution(string S, string pattern)
 		}
 		if (flag) {
 			answer++;
-			for (int t = i; t < i + patLen; t++) cout << S[t];
-			cout << endl;
 		}
 	}
 	return answer;
-}
-
-int main()
-{
-	ios_base::sync_with_stdio(0);
-	cout.tie(0);
-	cin.tie(0);
-
-	return 0;
 }

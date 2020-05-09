@@ -167,10 +167,13 @@ class Robot {
 ### 문제를 해결한 코드
 ```java
 import java.util.*;
+import java.io.*;
+
 public class Main {
 	public static void main(String[] args) {
 		Solution solution = new Solution();
-		int board[][] = {{0, 0, 0, 1, 1},{0, 0, 0, 1, 0},{0, 1, 0, 1, 1},{1, 1, 0, 0, 1},{0, 0, 0, 0, 0}};
+		int board[][] = { { 0, 0, 0, 1, 1 }, { 0, 0, 0, 1, 0 }, { 0, 1, 0, 1, 1 }, { 1, 1, 0, 0, 1 },
+				{ 0, 0, 0, 0, 0 } };
 		System.out.println(solution.solution(board));
 	}
 }
@@ -185,10 +188,10 @@ class Solution {
 
 	public int solution(int[][] board) {
 		n = board.length;
-		mat = new int[n+1][n+1];
-		for(int i=1;i<=n;i++) {
-			for(int j=1;j<=n;j++) {
-				mat[i][j]=board[i-1][j-1];
+		mat = new int[n + 1][n + 1];
+		for (int i = 1; i <= n; i++) {
+			for (int j = 1; j <= n; j++) {
+				mat[i][j] = board[i - 1][j - 1];
 			}
 		}
 		visited = new HashSet<Robot>();
@@ -203,10 +206,10 @@ class Solution {
 			Robot robot = queue.poll();
 
 			if (isFinished(robot)) {
-				//System.out.println(visited);
+				System.out.println(visited);
 				return ans;
 			}
-			
+
 			// move
 			for (int i = 0; i < 4; i++) {
 				int r1 = robot.r1 + dr[i];
@@ -216,7 +219,7 @@ class Solution {
 				Robot nextRobot = new Robot(r1, c1, r2, c2);
 				if (isBoundary(r1, c1) && isBoundary(r2, c2)) {
 					if (mat[r1][c1] != 1 && mat[r2][c2] != 1) {
-						if(!visited.contains(nextRobot)) {
+						if (!visited.contains(nextRobot)) {
 							nextQueue.add(nextRobot);
 							visited.add(nextRobot);
 						}
@@ -271,7 +274,7 @@ class Solution {
 				}
 			}
 		}
-		return pipe(nextQueue, ans+1);
+		return pipe(nextQueue, ans + 1);
 	}
 
 	public static boolean isFinished(Robot robot) {
@@ -304,19 +307,24 @@ class Robot {
 		this.c2 = c2;
 		this.r2 = r2;
 	}
+
 	@Override
 	public boolean equals(Object obj) {
-		Robot robot = (Robot)obj;
-		if(this.r1 == robot.r1 && this.c1 == robot.c1 && this.r2 == robot.r2 && this.c2 == robot.c2) return true;
-		if(this.r1 == robot.r2 && this.c1 == robot.c2 && this.r2 == robot.r1 && this.c2 == robot.c1) return true;
+		Robot robot = (Robot) obj;
+		if (this.r1 == robot.r1 && this.c1 == robot.c1 && this.r2 == robot.r2 && this.c2 == robot.c2)
+			return true;
+		if (this.r1 == robot.r2 && this.c1 == robot.c2 && this.r2 == robot.r1 && this.c2 == robot.c1)
+			return true;
 		return false;
 	}
-    @Override
-    public int hashCode() {
-        return (Math.min(r1, r2)+" "+Math.max(r1,r2)+" "+Math.min(c1, c2)+" "+Math.max(c1, c2)).hashCode();
-    }
+
+	@Override
+	public int hashCode() {
+		return (Math.min(r1, r2) + " " + Math.max(r1, r2) + " " + Math.min(c1, c2) + " " + Math.max(c1, c2)).hashCode();
+	}
+
 	public String toString() {
-		return r1+" "+c1+" "+r2+" "+c2+"\n";
+		return r1 + " " + c1 + " " + r2 + " " + c2 + "\n";
 	}
 }
 ```

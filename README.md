@@ -111,22 +111,24 @@
 - [원격저장소의 브랜치를 로컬로 가져오는 방법](https://github.com/TheCopiens/algorithm-study/blob/master/docs/github/bring_remote_branch.md)
 - [fork한 저장소 최신으로 동기화하는 방법](https://github.com/TheCopiens/algorithm-study/blob/master/docs/github/update_forkedRepo_from_originRepo.md#fork-%ED%95%9C-repository-%EC%B5%9C%EC%8B%A0%EC%9C%BC%EB%A1%9C-%EB%8F%99%EA%B8%B0%ED%99%94-%ED%95%98%EB%8A%94-%EB%B0%A9%EB%B2%95)
 
-#### 작업폴더 변경 후 원격저장소에 반영하기
+#### 원격저장소 로컬에 가져오기
+<code> git clone https://github.com/TheCopiens/algorithm-study.git </code>
 
-local workspace에 'ohhako'라는 이름으로 banch 생성<br>
-<code>
-git branch ohhako
-</code>
+#### 로컬에서 개인 브랜치 생성하기
+local workspace에 'ohhako'라는 이름으로 브랜치 생성<br>
+<code> git branch ohhako </code>
 
-workspace에서 개인 작업을 마친 후 공동 저장소(TheCopiens/algorithm-study)에 반영한다.
+#### 로컬에서 브랜치 작업후 원격저장소에 반영하기
+로컬 브랜치가 있는 폴더에서 개인작업을 마친 후 공동 저장소에 반영한다.
 
 1. <code> **git checkout ohhako** </code> - master에서 ohhako 브랜치로 전환
 2. workspace에서 작업
-3. <code> **git commit -m "message"**</code> , <code> **git push origin ohhako** </code>
-4. <code> **git checkout master** </code> - ohhako에서 master로 브랜치 전환
-5. <code> **git pull** </code> - git원격 저장소의 master를 로컬로 가져오기
-6. <code> **git merge ohhako** </code> - master에 ohhako의 브랜치작업 반영
-7. <code> **git push origin master** </code>
+3. <code> **git commit -m "message"**</code>  
+4. <code> **git push origin ohhako** </code> - 원격저장소 ohhako 브랜치에 반영
+5. <code> **git checkout master** </code> - 브랜치 전환
+6. <code> **git pull** </code> - 원격저장소 master의 최신 정보를 로컬에 업데이트 시키기
+7. <code> **git merge ohhako** </code> - master에 ohhako 브랜치 작업 반영
+8. <code> **git push origin master** </code> - 원격저장소 master에 반영
 
 ## <br><br>
 
@@ -135,3 +137,4 @@ workspace에서 개인 작업을 마친 후 공동 저장소(TheCopiens/algorith
 - [알고리즘 공부법](https://gmlwjd9405.github.io/2018/05/14/how-to-study-algorithms.html) <br>
 - [wearsoft/algorithm-study](https://github.com/WeareSoft/algorithm-study)
 - [알고리즘 공부 어떻게 해야하나](https://baactree.tistory.com/52)
+

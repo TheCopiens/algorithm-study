@@ -2,14 +2,17 @@
 
 ## 알고리즘 문제 사이트
 
-- 프로그래머스 https://programmers.co.kr/learn/challenges
-- 백준 https://www.acmicpc.net/problem/tags
-- 자바 SE10 API https://docs.oracle.com/javase/10/docs/api/allclasses-noframe.html
+**프로그래머스** https://programmers.co.kr/learn/challenges <br>
+**백준** https://www.acmicpc.net/problem/tags <br>
+CodeUp https://codeup.kr/ <br>
+Codility https://app.codility.com/programmers/ <br>
+온코더 https://www.oncoder.com/ <br>
+구름 https://codingtest.goorm.io/ <br>
 
 ## 알고리즘 공부 간증글
 
-- 박트리님 PS공부법 https://baactree.tistory.com/52
-- 언어선택 https://www.acmicpc.net/board/view/24568
+박트리님 PS공부법 https://baactree.tistory.com/52 <br>
+언어선택 https://www.acmicpc.net/board/view/24568 <br>
 
 ## 알고리즘 공부 방법
 
@@ -63,19 +66,19 @@
 - 상대방에게 받은 피드백과 코드에 자신이 적용한 해결방법을 정리해서 README.md에 작성하고 source/해당 코드가 있는 폴더에 업로드한다.
 - 코드에 주석을 달면 시간이 지나고 다시 볼 때 빠른 이해에 도움이 된다.
 
-#### \* 이외에 자신만의 공부법이 있다면 자유롭게 이용
+\* 반드시 지키는것 보단 자신에게 맞는 공부법을 찾아가자
 
 ## 팀원 스터디 진행 방법
 
 ### 온라인 스터디
 
 1. 월요일마다 팀 공통문제 출제
-   - ex) 구현을 묻는문제 1개 + 동적프로그래밍 이용문제 1개
-   - ex) 퀵소트, FIFO문제 등
+   - ex) 구현력 문제 + DP 문제
 2. 시간 정해두고 문제풀기
-   - 시험 실전대비를 위해 시간을 정해두고 푸는것을 권장합니다. (최대2시간)
+   - 시험 실전대비를 위해 시간을 정해두고 푸는것을 권장 (최대2시간)
 3. 문제풀이 마크다운 작성후 업로드하기. (개인폴더에 작업후 master branch에 merge)
    - [문제풀이 양식](https://github.com/TheCopiens/algorithm-study/blob/master/solution%20template.md)
+   - [메세지 컨벤션](https://github.com/TheCopiens/algorithm-study/wiki/Message-Convention)
    - 예시: [lee님 백준문제 1149 풀이](https://github.com/TheCopiens/algorithm-study/blob/master/source/lee/team/200325_dp.md)
    - 개인적으로 푼 문제를 업로드해도 좋습니다.
    - 팀원들과 공유하는 이론이나 알고리즘 정리를 업로드해도 좋습니다. 예시: [ohhako님 DP정리](https://github.com/TheCopiens/algorithm-study/blob/master/contents/DP.md)
@@ -112,18 +115,21 @@
 - [fork한 저장소 최신으로 동기화하는 방법](https://github.com/TheCopiens/algorithm-study/blob/master/docs/github/update_forkedRepo_from_originRepo.md#fork-%ED%95%9C-repository-%EC%B5%9C%EC%8B%A0%EC%9C%BC%EB%A1%9C-%EB%8F%99%EA%B8%B0%ED%99%94-%ED%95%98%EB%8A%94-%EB%B0%A9%EB%B2%95)
 
 #### 원격저장소 로컬에 가져오기
+
 <code> git clone https://github.com/TheCopiens/algorithm-study.git </code>
 
 #### 로컬에서 개인 브랜치 생성하기
+
 local workspace에 'ohhako'라는 이름으로 브랜치 생성<br>
 <code> git branch ohhako </code>
 
 #### 로컬에서 브랜치 작업후 원격저장소에 반영하기
+
 로컬 브랜치가 있는 폴더에서 개인작업을 마친 후 공동 저장소에 반영한다.
 
 1. <code> **git checkout ohhako** </code> - master에서 ohhako 브랜치로 전환
 2. workspace에서 작업
-3. <code> **git commit -m "message"**</code>  
+3. <code> **git commit -m "message"**</code>
 4. <code> **git push origin ohhako** </code> - 원격저장소 ohhako 브랜치에 반영
 5. <code> **git checkout master** </code> - 브랜치 전환
 6. <code> **git pull** </code> - 원격저장소 master의 최신 정보를 로컬에 업데이트 시키기
@@ -137,4 +143,3 @@ local workspace에 'ohhako'라는 이름으로 브랜치 생성<br>
 - [알고리즘 공부법](https://gmlwjd9405.github.io/2018/05/14/how-to-study-algorithms.html) <br>
 - [wearsoft/algorithm-study](https://github.com/WeareSoft/algorithm-study)
 - [알고리즘 공부 어떻게 해야하나](https://baactree.tistory.com/52)
-

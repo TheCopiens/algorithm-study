@@ -1,0 +1,77 @@
+# OO사 OO 문제
+
+- 난이도 낮은 1~3번
+
+### 문제 이해하기
+
+- 문자열,배열,해시맵
+- 입력값의 범위가 주어지지 않으므로 O(n)을 신경써야 한다
+- 함수가 주어지는 경우도 있다
+
+### 문제 접근 방법
+
+- solution1: 문자열에서 특정 인덱스의 문자 비교
+- solution2: 문자열 공백 단위 쪼개기, 숫자 변환, 해시맵으로 값 중복 확인
+- solution3: 해시맵에 compute()가 리턴한 초기값을 저장하여 필요시 사용. O(n) 조건 확인
+
+### 접근 방법을 적용한 코드
+
+```java
+    public static void solution1(String num) {
+		boolean chk = true;
+		for (int i = 0; i < num.length() - 1; i++) {
+			if ((num.charAt(i) == '1') && (num.charAt(i + 1) == '1'))
+				chk = false;
+		}
+		System.out.println(chk);
+
+	}
+
+	public static void solution2(String n) {
+		final int  NUM_LOTTO = 6;
+		String num[] = n.split(" ");
+		HashMap<String,Integer> map = new HashMap<>();
+		boolean chk = true;
+		int tmp = -1;
+		for (int i = 0; i < NUM_LOTTO; i++) {
+
+			if (Integer.parseInt(num[i]) < 1 || Integer.parseInt(num[i]) > 45)
+				chk = false;
+
+			map.put(num[i], map.getOrDefault(num[i],0)+1);
+
+			if(tmp>= Integer.parseInt(num[i]))
+				chk = false;
+			tmp = Integer.parseInt(num[i]);
+		}
+
+		System.out.println(chk);
+
+	}
+
+	public static void solution3(String number) {
+		//compute 함수를 쓰면 1초가 걸린다 => n개 정수가 주어졌을때 n초 미만이다? O(n)를 지키라는 의미.
+		LinkedHashMap<Integer,Integer> map = new LinkedHashMap<>();
+		String[] num = number.split(" ");
+		StringBuffer sb = new StringBuffer();
+
+		for(int i=0 ; i<num.length-1 ; i++) {
+			/*int compute_num = compute(num[i]);
+			map.put(map.getOrDefault(num[i],compute_num));
+			sb.append(map.get(num[i])+" ");
+			*/
+		}
+
+		System.out.println(sb.toString());
+	}
+```
+
+### 해결하지 못한 이유
+
+### 문제를 해결한 코드
+
+```java
+
+```
+
+### 문제를 해결한 방법

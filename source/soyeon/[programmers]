@@ -1,0 +1,86 @@
+# 프로그래머스 문제
+- 가사 검색
+    - https://www.welcomekakao.com/learn/courses/30/lessons/60060?language=java
+
+## 풀이 방법
+### 문제 이해하기
+각 query 가 매치되는 word의 수를 배열 형태로 리턴하는 문제이다.
+
+### 문제 접근 방법
+ArrayList의 배열
+
+### 구현 배경 지식
+
+### 접근 방법을 적용한 코드
+```java
+/* 정확성: 25.0
+ * 효율성: 30.0
+ * 합계: 55.0 / 100.0 */
+import java.util.*;
+class Solution {
+	public static char WILD_CARD = '?';
+
+	public int[] solution(String[] words, String[] queries) {
+
+		int queryLength = queries.length;
+		int[] answer = new int[queryLength];
+
+		ArrayList<String> wordLists[] = new ArrayList[10001];
+		for (int i = 0; i < words.length; i++) {
+			int wordLength = words[i].length();
+			if (wordLists[wordLength] == null) {
+				wordLists[wordLength] = new ArrayList<String>();
+			}
+			wordLists[wordLength].add(words[i]);
+		}
+
+		for (int i = 0; i < queryLength; i++) {
+			answer[i] = matchedQuery(queries[i], wordLists);
+		}
+
+		return answer;
+	}
+
+	public int matchedQuery(String query, ArrayList<String> wordLists[]) {
+		int answer = 0;
+		ArrayList<String> sameLengthWords = wordLists[query.length()];
+
+		if (sameLengthWords == null) {
+			return 0;
+		}
+    
+		for (String word : sameLengthWords) {
+			if (isMatched(query, word)) {
+				answer++;
+			}
+		}
+		return answer;
+	}
+
+	public boolean isMatched(String query, String word) {
+		if (query.length() != word.length()) {
+			return false;
+		}
+
+		for (int i = 0; i < query.length(); i++) {
+			if (query.charAt(i) != word.charAt(i)) {
+				if (query.charAt(i) != WILD_CARD && word.charAt(i) != WILD_CARD) {
+					return false;
+				}
+			}
+		}
+		return true;
+	}
+}
+```
+
+### 해결하지 못한 이유
+
+### 문제를 해결한 코드
+```java
+```
+
+### 문제를 해결한 방법
+
+---
+아래의 사이트를 참고해 작성된 글입니다.

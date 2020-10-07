@@ -32,4 +32,5 @@ class Solution {
     	findAll(numbers, target, nowIndex+1, sum-numbers[nowIndex]);
     }
 }
+
 ```

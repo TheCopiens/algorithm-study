@@ -37,7 +37,6 @@ class Solution {
 
 		return answer;
 	}
-
 	public int[] setAnswer(int index, int n) {
 		int answer[] = new int[2];
 		answer[0] = (index + 1) % n;

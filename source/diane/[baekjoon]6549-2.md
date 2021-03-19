@@ -79,7 +79,6 @@ public class Main {
     private static Node[] makeSegTree() {
         double height = Math.ceil(Math.log(array.length)/Math.log(2.0));
         int treeSize = (int) Math.pow(2.0, height+1);
-//        System.out.println("Tree height & size : "+height+" "+treeSize);
         return new Node[treeSize];
     }
 

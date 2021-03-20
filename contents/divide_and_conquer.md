@@ -13,10 +13,11 @@
 
 
 ### 알고리즘 효율성
-- 분할정복 알고리즘은 Recursion calls(재귀호출)가 사용되는 경우가 많다. 재귀호출에서 알고리즘 효율이 떨어질 수 있다.
+- 분할정복 알고리즘은 Recursion calls(재귀호출)가 사용되는 경우가 많다. 재귀호출에서 알고리즘 효율이 떨어질 수 있다. => 분할 기준에 따라 효율이 달라질 수 있다.
 
 
 ### 분할정복 관련 자료
 
-- [별 찍기](https://st-lab.tistory.com/95)
+- [백준 Z](https://www.google.com/search?q=%EB%B0%B1%EC%A4%80+z+%EB%AC%B8%EC%A0%9C&oq=%EB%B0%B1%EC%A4%80+z+%EB%AC%B8%EC%A0%9C&aqs=chrome..69i57j0l9.3894j0j7&sourceid=chrome&ie=UTF-8)
+- [별 찍기 풀이](https://st-lab.tistory.com/95)
 - https://gamedevlog.tistory.com/58

@@ -29,8 +29,12 @@
 - [DP 요약설명](https://github.com/TheCopiens/algorithm-study/blob/master/contents/DP.md)
 
 ### 탐욕법을 활용한 문제
-- 동전을 최소 개수로 거슬러주기
-- [체육복](https://github.com/TheCopiens/algorithm-study/blob/ohhako/source/ohhako/200202_greedy.md)
-- [큰수만들기](https://programmers.co.kr/learn/courses/30/lessons/42883)
-
-
+* 동전을 최소 개수로 거슬러주기
+* [체육복](https://github.com/TheCopiens/algorithm-study/blob/ohhako/source/ohhako/200202_greedy.md)
+* [큰수만들기](https://programmers.co.kr/learn/courses/30/lessons/42883)
+* [RGB거리](https://github.com/TheCopiens/algorithm-study/blob/master/source/ohhako/boj/1149_dp.md)
+* [정수 삼각형](https://github.com/TheCopiens/algorithm-study/blob/master/source/ohhako/boj/1932_DP.md)
+* [동물원](https://www.acmicpc.net/problem/1309)
+* [기타리스트](https://www.acmicpc.net/problem/1495)
+* [LCS](https://www.acmicpc.net/problem/9251)
+* [동전2](https://www.acmicpc.net/problem/2294)
